@@ -22,5 +22,4 @@ public class RepairPoint {
 	public void setLon(double lon) {
 		this.lon = lon;
 	}
-	
 }

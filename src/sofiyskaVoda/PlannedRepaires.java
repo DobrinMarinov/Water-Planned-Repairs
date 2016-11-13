@@ -15,7 +15,6 @@ import org.json.JSONObject;
 public class PlannedRepaires {
 
 	public static void main(String[] args) throws IOException {
-		
 		String serverName = "gis.sofiyskavoda.bg";
 		int port = 6080;
 		
@@ -24,7 +23,6 @@ public class PlannedRepaires {
 		getMapPointsLatLon(result);
 		
 		System.out.println("End of program!");
-		
 	}
 	
 	public static String getJsonBoject(String serverName, int port) throws IOException {
